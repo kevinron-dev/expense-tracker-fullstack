@@ -1,0 +1,13 @@
+#OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+#Env
+.env
+.env.*
+!.env.example
+
+#Local archives/backups
+*.zip

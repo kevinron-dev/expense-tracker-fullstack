@@ -1,0 +1,89 @@
+.page-shell {
+  min-height: 100vh;
+}
+
+.page-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+}
+
+.page-header {
+  margin-bottom: 2rem;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.page-subtitle {
+  color: var(--text-muted);
+  font-size: 1.05rem;
+}
+
+.auth-shell {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.auth-card {
+  width: 100%;
+  max-width: 520px;
+}
+
+.auth-card .p-card-body {
+  padding: 1.75rem;
+}
+
+.auth-card .p-card-content {
+  padding: 0.5rem 0 0;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.auth-form .field,
+.auth-form .flex.flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.auth-form .p-button {
+  margin-top: 0.15rem;
+}
+
+/* SPACING UTILITIES */
+.mb-4 {
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .page-content {
+    padding: 1.25rem 1rem 2rem;
+  }
+
+  .page-title {
+    font-size: 2rem;
+  }
+
+  .auth-shell {
+    padding: 1rem;
+  }
+
+  .auth-card .p-card-body {
+    padding: 1.2rem;
+  }
+
+  .auth-form {
+    gap: 1.15rem;
+  }
+}

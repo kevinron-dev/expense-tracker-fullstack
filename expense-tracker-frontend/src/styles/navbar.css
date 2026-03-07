@@ -1,0 +1,155 @@
+/* MENUBAR */
+.navbar-shell {
+  width: 100%;
+  position: relative;
+  z-index: 24;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.navbar-brand-icon {
+  font-size: 1.75rem;
+  color: #2196f3;
+}
+
+.navbar-brand-text {
+  font-size: clamp(1.15rem, 1.8vw, 1.55rem);
+  line-height: 1.1;
+}
+
+.navbar-logout-btn {
+  padding: 0.75rem 1.5rem !important;
+  font-size: 1rem !important;
+  border-radius: 8px !important;
+}
+
+.app-menubar.p-menubar {
+  width: 100% !important;
+  border-radius: 0 !important;
+  background: linear-gradient(90deg, rgba(10, 20, 49, 0.9), rgba(16, 35, 73, 0.92)) !important;
+  border: none !important;
+  border-bottom: 1px solid rgba(82, 148, 255, 0.25) !important;
+  backdrop-filter: blur(10px);
+  padding: 1rem 2rem !important;
+  position: relative;
+  z-index: 25;
+}
+
+.app-menubar .p-menubar-start {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+}
+
+.app-menubar .p-menubar-root-list {
+  margin-left: 2rem;
+  align-items: center;
+}
+
+.app-menubar .p-menubar-end {
+  display: flex;
+  align-items: center;
+  margin-left: auto !important;
+}
+
+.app-menubar .p-menuitem-link {
+  padding: 0.75rem 1.5rem !important;
+  font-size: 1.05rem;
+  color: var(--text-primary) !important;
+}
+
+.app-menubar .p-menuitem-link:hover {
+  background: rgba(77, 189, 255, 0.18) !important;
+}
+
+.app-menubar .p-menuitem-icon {
+  font-size: 1.2rem !important;
+}
+
+.active-menu-item > .p-menuitem-link {
+  color: var(--accent-sky) !important;
+  font-weight: 600;
+}
+
+@media (max-width: 960px) {
+  .app-menubar .p-menubar-root-list {
+    position: static !important;
+    top: auto !important;
+    left: auto !important;
+    z-index: auto !important;
+    width: 100%;
+    margin: 0.7rem 0 0 !important;
+    padding: 0.35rem !important;
+    border-radius: 12px;
+    border: 1px solid rgba(82, 148, 255, 0.28);
+    background: linear-gradient(180deg, rgba(7, 18, 44, 0.97), rgba(7, 18, 44, 0.93)) !important;
+    box-shadow: 0 14px 28px rgba(2, 8, 24, 0.48);
+    backdrop-filter: blur(12px);
+    align-items: stretch;
+    gap: 0.2rem;
+  }
+
+  .app-menubar.p-menubar-mobile-active .p-menubar-root-list {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .app-menubar.p-menubar {
+    padding: 0.65rem 0.75rem !important;
+  }
+
+  .navbar-brand {
+    gap: 0.5rem;
+  }
+
+  .navbar-brand-icon {
+    font-size: 1.4rem;
+  }
+
+  .navbar-brand-text {
+    font-size: 1.05rem;
+  }
+
+  .app-menubar .p-menubar-button {
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+    border: 1px solid rgba(82, 148, 255, 0.35);
+    background: rgba(39, 86, 153, 0.32);
+    color: #8bcaff;
+    margin-left: 0.45rem;
+  }
+
+  .app-menubar .p-menubar-button:hover {
+    background: rgba(61, 124, 214, 0.4);
+    border-color: rgba(123, 182, 255, 0.55);
+  }
+
+  .app-menubar .p-menubar-end {
+    margin-left: 0.5rem !important;
+  }
+
+  .app-menubar .navbar-logout-btn {
+    padding: 0.52rem 0.8rem !important;
+    font-size: 0.88rem !important;
+  }
+
+  .app-menubar .p-menubar-root-list .p-menuitem-link {
+    border-radius: 8px;
+    padding: 0.75rem 0.85rem !important;
+    font-size: 0.98rem;
+  }
+
+  .app-menubar .p-menubar-root-list .p-menuitem-icon {
+    font-size: 1rem !important;
+    margin-right: 0.55rem;
+  }
+}

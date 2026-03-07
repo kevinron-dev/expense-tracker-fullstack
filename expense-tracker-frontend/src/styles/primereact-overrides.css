@@ -1,0 +1,167 @@
+/* CARDS */
+.p-card {
+  background:
+    linear-gradient(160deg, rgba(23, 38, 78, 0.72) 0%, rgba(9, 20, 52, 0.78) 100%) !important;
+  border: 1px solid var(--card-border) !important;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 10px 34px rgba(2, 8, 24, 0.42);
+  border-radius: 12px !important;
+}
+
+.p-card .p-card-title {
+  color: var(--accent-sky) !important;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.p-card .p-card-content {
+  color: var(--text-primary) !important;
+}
+
+/* INPUTS */
+.p-inputtext,
+.p-inputnumber-input,
+.p-inputtextarea {
+  background: rgba(28, 40, 82, 0.58) !important;
+  border: 1px solid rgba(89, 145, 234, 0.32) !important;
+  color: var(--text-primary) !important;
+  padding: 0.75rem !important;
+  border-radius: 8px !important;
+}
+
+.p-inputtext:enabled:focus {
+  border-color: var(--accent-sky) !important;
+  box-shadow: 0 0 0 0.2rem rgba(77, 189, 255, 0.23) !important;
+}
+
+.p-password {
+  width: 100% !important;
+}
+
+.p-password input {
+  width: 100% !important;
+}
+
+.p-password .p-icon-field,
+.p-password .p-icon-field-right {
+  width: 100% !important;
+  display: block !important;
+}
+
+.p-calendar .p-datepicker-trigger {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  min-width: 3.25rem !important;
+  padding: 0.75rem !important;
+}
+
+.p-calendar .p-datepicker-trigger .pi,
+.p-calendar .p-datepicker-trigger .p-button-icon {
+  color: #ffffff !important;
+  font-size: 1rem !important;
+}
+
+.p-calendar .p-datepicker-trigger .p-button-label {
+  display: none;
+}
+
+/* BUTTONS */
+.p-button {
+  background: linear-gradient(135deg, #2b9cff 0%, #2f7fe6 52%, #3275cf 100%) !important;
+  border: none !important;
+  color: #f3f8ff !important;
+  padding: 0.75rem 1.5rem !important;
+  font-weight: 600 !important;
+  border-radius: 8px !important;
+  transition: all 0.3s ease !important;
+}
+
+.p-button .p-button-icon,
+.p-button .pi {
+  color: inherit !important;
+}
+
+.p-button:hover {
+  background: linear-gradient(135deg, #44b2ff 0%, #3598ff 54%, #2a86e8 100%) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(38, 149, 255, 0.42) !important;
+}
+
+.p-button-danger {
+  background: linear-gradient(135deg, #ef5350 0%, #e53935 100%) !important;
+}
+
+.p-button-success {
+  background: linear-gradient(135deg, #26c6da 0%, #00acc1 100%) !important;
+}
+
+/* DATATABLE */
+.p-datatable {
+  background: rgba(9, 19, 46, 0.58) !important;
+  border: 1px solid rgba(89, 145, 234, 0.26) !important;
+  border-radius: 12px !important;
+}
+
+.p-datatable .p-datatable-thead > tr > th {
+  background: rgba(42, 42, 66, 0.8) !important;
+  color: #64b5f6 !important;
+  border: none !important;
+  font-weight: 600;
+  padding: 1rem !important;
+}
+
+.p-datatable .p-sortable-column .p-sortable-column-icon {
+  margin-left: 0.45rem !important;
+  color: #88c8ff !important;
+  opacity: 0.9;
+}
+
+.p-datatable .p-datatable-tbody > tr {
+  background: rgba(26, 26, 46, 0.4) !important;
+  color: #e0e0e0 !important;
+  border: none !important;
+}
+
+.p-datatable .p-datatable-tbody > tr:hover {
+  background: rgba(42, 42, 66, 0.6) !important;
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+  border: none !important;
+  padding: 1rem !important;
+}
+
+.p-paginator {
+  background: rgba(26, 44, 79, 0.72) !important;
+  border: none !important;
+}
+
+.p-paginator .p-paginator-current {
+  color: #b8c7df !important;
+}
+
+/* DROPDOWN */
+.p-dropdown {
+  background: rgba(42, 42, 66, 0.6) !important;
+  border: 1px solid rgba(106, 106, 138, 0.4) !important;
+  border-radius: 8px !important;
+}
+
+.p-dropdown:not(.p-disabled):hover {
+  border-color: #2196f3 !important;
+}
+
+.p-dropdown-panel {
+  background: rgba(26, 26, 46, 0.95) !important;
+  border: 1px solid rgba(106, 106, 138, 0.4) !important;
+  backdrop-filter: blur(10px);
+}
+
+.p-dropdown-item {
+  color: #e0e0e0 !important;
+}
+
+.p-dropdown-item:hover {
+  background: rgba(106, 106, 138, 0.3) !important;
+}

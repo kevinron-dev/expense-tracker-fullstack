@@ -1,0 +1,81 @@
+/* EXPENSE FORM */
+.expense-form-card {
+  width: 100%;
+  max-width: 960px;
+  margin-inline: auto;
+}
+
+.expense-form-card .p-card-body {
+  padding: 1.5rem 1.65rem 1.35rem !important;
+}
+
+.expense-form-card .p-card-content {
+  padding: 0 !important;
+}
+
+.expense-form {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.expense-form-grid {
+  margin: 0 !important;
+  row-gap: 0.35rem;
+}
+
+.expense-form-grid > [class*="col-"] {
+  padding: 0.6rem 0.55rem !important;
+}
+
+.expense-form .field {
+  margin-bottom: 0;
+}
+
+.expense-form .p-inputnumber,
+.expense-form .p-calendar,
+.expense-form .p-dropdown {
+  width: 100%;
+}
+
+.expense-action-row {
+  padding-top: 0.25rem !important;
+}
+
+.expense-action-group {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.expense-primary-btn {
+  min-width: 210px;
+}
+
+.expense-secondary-btn {
+  min-width: 130px;
+}
+
+@media (max-width: 768px) {
+  .expense-form-card .p-card-body {
+    padding: 1rem 0.95rem 1rem !important;
+  }
+
+  .expense-form {
+    max-width: 100%;
+  }
+
+  .expense-form-grid > [class*="col-"] {
+    padding: 0.45rem 0.2rem !important;
+  }
+
+  .expense-action-group {
+    justify-content: stretch;
+  }
+
+  .expense-primary-btn,
+  .expense-secondary-btn {
+    width: 100%;
+    min-width: 0;
+  }
+}

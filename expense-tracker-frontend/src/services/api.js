@@ -1,4 +1,6 @@
-const API_ROOT = "http://localhost:8080";
+const API_ROOT =
+  import.meta.env.VITE_API_ROOT ||
+  "https://expense-tracker-backend-latest-6xwf.onrender.com";
 const BASE_URL = `${API_ROOT}/api`;
 
 const getHeaders = ({ includeAuth = true, includeJson = true } = {}) => {

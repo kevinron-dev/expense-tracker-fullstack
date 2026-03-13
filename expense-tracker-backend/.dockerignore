@@ -1,0 +1,8 @@
+target/
+backup_old_root_java_20260212_200043/
+.git/
+.gitignore
+.classpath
+.project
+.settings/
+HELP.md
